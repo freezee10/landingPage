@@ -1,0 +1,145 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+   
+    font-family: Roboto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+ 
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.header-logo {
+    margin: 0px;
+    font-size: 22.5px;
+    margin-left: 100px;
+}
+
+.header-links {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto;
+    
+    margin-right: 130px;
+    color: #E5E7EB;
+}
+
+.top-section {
+    background-color: #1F2937;
+   
+   height: 600px;
+}
+
+.header-mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 0px;
+}
+
+.header-hero {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.logo, .header-links {
+    margin-top: 25px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    margin-top: 32px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.header-links {
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 70px;
+}
+
+.content {
+    width: 500px;
+    
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.8s;
+}
+
+button:hover {
+    color: #3882F6;
+    background-color: white;
+}
+
+.header-links, .header-hero, .content {
+    color: white;
+}
+
+.header-links:hover {
+    color: #3882F6;
+}
+
+.members {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.members-container {
+    display: flex;
+    
+    justify-content: center;
+    margin-right: 100px;
+    margin-top: 50px;
+    gap: 100px;
+
+}
+
+.members-container img {
+    width: 200px;
+    height: 270px;
+    border: 4px #3882F6 solid;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.slot {
+    text-align: center;
+    max-width: 200px;
+}
+
+
